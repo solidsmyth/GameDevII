@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1319407589325561141}
   - component: {fileID: 5134781414924633582}
   - component: {fileID: 3293743033825635783}
+  - component: {fileID: 847753882927747990}
   m_Layer: 0
   m_Name: ThinBeam
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,3 +157,15 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
+--- !u!114 &847753882927747990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6120674253312676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17203e10417838741ad1623a173380bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

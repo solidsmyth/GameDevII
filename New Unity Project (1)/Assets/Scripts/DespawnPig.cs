@@ -5,7 +5,7 @@ using UnityEngine;
 public class DespawnPig : MonoBehaviour
 {
     private bool Despawn = false;
-    private float Timer = 5;
+    private float Timer = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +18,13 @@ public class DespawnPig : MonoBehaviour
         if(Despawn == true)
         {
             Timer -= Time.deltaTime;
+            Debug.Log("DieIn");
             if (Timer <= 0)
             {
                 GameObject.Find("Cannon").GetComponent<ACannonController>().RespawnPig();
-                Destroy(gameObject);
                 Despawn = false;
+                Destroy(gameObject);
+                Timer = 7;
             }
         }
     }

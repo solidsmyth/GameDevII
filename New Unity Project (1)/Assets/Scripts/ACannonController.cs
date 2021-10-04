@@ -9,7 +9,9 @@ public class ACannonController : MonoBehaviour
     public Transform SpawnPoint;
     public GameObject PigPrefab;
     public GameObject Cparent;
+    public bool inAir;
     private bool launched;
+    private float Timer = 15.0f;
     private float MAX_ANGLE = 80.0f;
     private float MIN_ANGLE = 10.0f;
     // Start is called before the first frame update
@@ -17,6 +19,7 @@ public class ACannonController : MonoBehaviour
     {
         Pig.gravityScale = 0;
         launched = false;
+        inAir = false;
     }
 
     // Update is called once per frame
@@ -26,8 +29,7 @@ public class ACannonController : MonoBehaviour
         //Debug.Log("Mouse Position" + pointInWorld);
         Vector3 mousePointInWorld = MainCamera.ScreenToWorldPoint(pointInWorld);
         //Debug.Log("Position in the Game World" + mousePointInWorld);
-
-        Debug.Log("CannonRotation" + transform.rotation);
+        //Debug.Log("CannonRotation" + transform.rotation);
         //transform.LookAt(mousePointInWorld);
         Vector3 temp = mousePointInWorld - transform.position;
         Vector2 directionAndMagnitudeAndForce = new Vector2(temp.x, temp.y);
@@ -43,6 +45,31 @@ public class ACannonController : MonoBehaviour
             Pig.transform.parent = null;
             Pig.AddForce(directionAndMagnitudeAndForce*100);
             launched = true;
+            inAir = true;
+        }
+        if (inAir == true)
+        {
+            {
+                Timer -= Time.deltaTime;
+                Debug.Log("CountDown");
+                if (Timer <= 0)
+                {
+                    RespawnPig();
+                    inAir = false;
+                    Destroy(GameObject.FindGameObjectWithTag("Player"));
+                    Timer = 15.0f;
+                }
+                else if (Timer >= 0 && inAir == false)
+                {
+                    Timer = 15.0f;
+                    Debug.Log("Reset1");
+                }
+            }
+        }
+        else if (inAir == false)
+        {
+            Timer = 15.0f;
+            Debug.Log("Reset2");
         }
     }
     public void RespawnPig()

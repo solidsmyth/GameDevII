@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cannon
   - Collider
+  - BombBird
   layers:
   - Default
   - TransparentFX

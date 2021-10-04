@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1673550002993295439}
   - component: {fileID: 1673550002993295433}
   - component: {fileID: -2448966727876525503}
+  - component: {fileID: -8464805514549799238}
+  - component: {fileID: 275070638}
   m_Layer: 0
   m_Name: Pig
   m_TagString: Player
@@ -26,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673550002993295436}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.5352747, y: 0.51760674, z: 0.035999298}
   m_LocalScale: {x: 0.46343, y: 0.46343, z: 0.46343}
   m_Children: []
@@ -117,3 +119,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebed05949cf0abb4bada50727b94ce9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8464805514549799238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673550002993295436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0413b2c57c6aa414f86530f09d411b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &275070638
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673550002993295436}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000014305115, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.80000037
