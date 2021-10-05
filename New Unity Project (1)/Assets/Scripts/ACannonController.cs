@@ -9,7 +9,7 @@ public class ACannonController : MonoBehaviour
     public Transform SpawnPoint;
     public GameObject PigPrefab;
     public GameObject Cparent;
-    public bool inAir;
+    private bool inAir;
     private bool launched;
     private float Timer = 15.0f;
     private float MAX_ANGLE = 80.0f;

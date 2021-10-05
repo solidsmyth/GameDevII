@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class ExplosionScript : MonoBehaviour
 {
-    private bool Exploded;
-    private float Timer = 3.0f;
+    private GameObject childObj;
     // Start is called before the first frame update
     void Start()
     {
-        Exploded = false;
-
+        childObj = GameObject.Find("Explosion");
+        childObj.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            Explode();
         }
+    }
+    public void Explode()
+    {
+        childObj.SetActive(true);
+        childObj.transform.parent = null;
+        Destroy(gameObject);
     }
 }

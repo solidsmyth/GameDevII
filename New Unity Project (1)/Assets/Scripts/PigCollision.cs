@@ -17,17 +17,13 @@ public class PigCollision : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Collider" || collision.gameObject.tag == "Hinge")
+        if (collision.gameObject.tag == "Bird")
         {
-            
+            Destroy(collision.gameObject);
         }
-        else if (collision.gameObject.tag == "Bird")
+        if (collision.gameObject.tag == "BombBird")
         {
-
-        }
-        else if (collision.gameObject.tag == "BombBird")
-        {
-
+            Destroy(collision.gameObject);
         }
     }
 }

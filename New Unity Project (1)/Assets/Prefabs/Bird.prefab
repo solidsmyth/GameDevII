@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5212422377200681275}
   - component: {fileID: 3606754624421503401}
   - component: {fileID: 9193077714477852362}
+  - component: {fileID: -2656037681774934447}
+  - component: {fileID: -4133347411029753942}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -72,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1b98f0a940cfed445b6f7726c8c39be2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -121,3 +123,27 @@ CircleCollider2D:
   m_Offset: {x: 0.11632279, y: -0.09445515}
   serializedVersion: 2
   m_Radius: 0.57473844
+--- !u!114 &-2656037681774934447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319376429891749084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17203e10417838741ad1623a173380bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4133347411029753942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319376429891749084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429b36226d07b7a45b0632a3a0ba0710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

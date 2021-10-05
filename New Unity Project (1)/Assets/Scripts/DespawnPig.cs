@@ -30,7 +30,7 @@ public class DespawnPig : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Collider" || collision.gameObject.tag == "Hinge")
+        if(collision.gameObject.tag == "Collider" || collision.gameObject.tag == "Hinge" || collision.gameObject.tag == "BombBird")
         {
             Despawn = true;
         }

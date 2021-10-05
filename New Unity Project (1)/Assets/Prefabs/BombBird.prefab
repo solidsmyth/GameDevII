@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3457591044951792160}
   - component: {fileID: 7887497140511155364}
   - component: {fileID: 8464257023743600740}
+  - component: {fileID: -3872632548866156890}
+  - component: {fileID: -374863188920036644}
   m_Layer: 0
   m_Name: BombBird
   m_TagString: Untagged
@@ -115,9 +117,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.009433746, y: -0.1830082}
   serializedVersion: 2
   m_Radius: 0.54341125
+--- !u!114 &-3872632548866156890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457591044951792159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17203e10417838741ad1623a173380bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-374863188920036644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457591044951792159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429b36226d07b7a45b0632a3a0ba0710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
