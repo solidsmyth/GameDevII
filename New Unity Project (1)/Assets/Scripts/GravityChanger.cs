@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class GravityChanger : MonoBehaviour
 {
+    private bool grounded;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(this.gameObject.transform.position.y < 22.0f)
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,6 +23,12 @@ public class GravityChanger : MonoBehaviour
         {
             Debug.Log("change grav");
             this.GetComponent<Rigidbody2D>().gravityScale = 1;
+        }
+        if(collision.gameObject.tag == "Ground" && grounded == false)
+        {
+            Debug.Log("grounded");
+            grounded = true;
+            GameObject.Find("UIandScoreManager").GetComponent<UIandScoreManager>().ScoreIncrease();
         }
     }
 }

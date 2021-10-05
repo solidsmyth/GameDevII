@@ -28,15 +28,18 @@ public class ScoreAndHealth : MonoBehaviour
         if(collision.gameObject.tag == "Collider" || collision.gameObject.tag == "Hinge")
         {
             Health -= 1;
+            Debug.Log("Health loss");
             if (Health <= 0)
             {
                 if(this.gameObject.tag == "Bird")
                 {
                     Destroy(gameObject);
+                    GameObject.Find("UIandScoreManager").GetComponent<UIandScoreManager>().ScoreIncreaseBird();
                 }
                 else if(this.gameObject.tag == "BombBird")
                 {
                     this.gameObject.GetComponent<ExplosionScript>().Explode();
+                    GameObject.Find("UIandScoreManager").GetComponent<UIandScoreManager>().ScoreIncreaseBigBird();
                 }
             }
         }
@@ -48,10 +51,12 @@ public class ScoreAndHealth : MonoBehaviour
                 if (this.gameObject.tag == "Bird")
                 {
                     Destroy(gameObject);
+                    GameObject.Find("UIandScoreManager").GetComponent<UIandScoreManager>().ScoreIncreaseBird();
                 }
                 else if (this.gameObject.tag == "BombBird")
                 {
                     this.gameObject.GetComponent<ExplosionScript>().Explode();
+                    GameObject.Find("UIandScoreManager").GetComponent<UIandScoreManager>().ScoreIncreaseBigBird();
                 }
             }
         }

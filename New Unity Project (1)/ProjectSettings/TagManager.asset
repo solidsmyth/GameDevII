@@ -8,6 +8,7 @@ TagManager:
   - Collider
   - BombBird
   - Bird
+  - Ground
   layers:
   - Default
   - TransparentFX
