@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface Observer
 {
-  void OnNotify (Object obj, NotificationType noTy);
+  void OnNotify (Object obj, NotificationType noTy, int pointValue);
 }
 
 
@@ -13,5 +13,6 @@ public enum NotificationType
 {
   bronzecoin,
   silvercoin,
-  goldcoin
+  goldcoin,
+  finish
 }

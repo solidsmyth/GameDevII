@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 204030568679808538}
   - component: {fileID: 193785464}
   - component: {fileID: 7985826402583470026}
+  - component: {fileID: 2540929225462958653}
   m_Layer: 0
   m_Name: Bronze
   m_TagString: Untagged
@@ -119,3 +120,15 @@ CircleCollider2D:
   m_Offset: {x: -0.008006573, y: 0}
   serializedVersion: 2
   m_Radius: 0.27847862
+--- !u!114 &2540929225462958653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204030568679808517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007b45b4f3fb709449c2659e128d3c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

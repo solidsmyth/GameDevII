@@ -17,9 +17,10 @@ public class SubjectBeingObserved : MonoBehaviour
   }
 
 
-  public void Notify (Object obj, NotificationType noTy) {
+  public void Notify (Object obj, NotificationType noTy, int pointValue) {
     foreach (Observer observer in _observers) {
-      observer.OnNotify(obj, noTy);
+      observer.OnNotify(obj, noTy, pointValue);
+            Debug.Log("Hello");
     }
   }
 }

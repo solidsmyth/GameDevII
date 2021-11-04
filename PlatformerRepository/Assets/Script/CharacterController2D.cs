@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController2D : MonoBehaviour, Observer
+public class CharacterController2D : MonoBehaviour
 {
     private float _movementSpeed;
     private float _jumpForce;
@@ -18,10 +18,10 @@ public class CharacterController2D : MonoBehaviour, Observer
         _rb = GetComponent<Rigidbody2D>();
         _movementSpeed = 2.0f;
         _jumpForce = 7.0f;
-        foreach (SubjectBeingObserved subject in FindObjectsOfType<SubjectBeingObserved>())
+        /*foreach (SubjectBeingObserved subject in FindObjectsOfType<SubjectBeingObserved>())
         {
             subject.AddObserver(this);
-        }
+        }*/
         speedy = false;
         speedTimer = 5f;
     }
@@ -88,7 +88,7 @@ public class CharacterController2D : MonoBehaviour, Observer
     }
 
 
-    public void OnNotify(Object obj, NotificationType noTy)
+    /*public void OnNotify(Object obj, NotificationType noTy)
     {
 
     }
@@ -103,6 +103,6 @@ public class CharacterController2D : MonoBehaviour, Observer
             //currentRotation = transform.eulerAngles.z;
             //currentRotation = Mathf.Lerp(currentRotation, correctRotation, Time.deltaTime * smoothness);
             //transform.eulerAngles.z = currentRotation;
-        }*/
-    }
+        }
+    }*/
 }
