@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MapGeneratorScript : MonoBehaviour
 {
-    public enum DrawMode {NoiseMap, ColorMap};
+    public enum DrawMode {NoiseMap, ColorMap, Mesh};
     public DrawMode drawMode;
 
     public int mapWidth;
@@ -18,6 +18,9 @@ public class MapGeneratorScript : MonoBehaviour
 
     public int seed;
     public Vector2 offset;
+
+    public float meshHeightMultipler;
+    public AnimationCurve meshHeigthCurve;
 
     public bool autoUpdate;
 
@@ -52,6 +55,10 @@ public class MapGeneratorScript : MonoBehaviour
         else if (drawMode == DrawMode.ColorMap)
         {
             display.DrawTexture(TextureGenerator.TextureFromColorMap(colorMap, mapWidth, mapHeight));
+        }
+        else if (drawMode == DrawMode.Mesh)
+        {
+            display.DrawMesh(TerrainMeshGenerator.GenerateTerrainMesh(noiseMap, meshHeightMultipler, meshHeigthCurve), TextureGenerator.TextureFromColorMap(colorMap, mapWidth, mapHeight));
         }
     }
 
