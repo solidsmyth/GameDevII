@@ -35,6 +35,9 @@ public class MapGeneratorScript : MonoBehaviour
 
     float[,] fallOffMap;
 
+    //MeshCollider meshCollider;
+    //private Mesh simpleMesh;
+
     Queue<MapThreadInfo<MapData>> mapDataThreadInfoQueue = new Queue<MapThreadInfo<MapData>>();
     Queue<MapThreadInfo<MeshData>> meshDataThreadInfoQueue = new Queue<MapThreadInfo<MeshData>>();
 
@@ -58,6 +61,7 @@ public class MapGeneratorScript : MonoBehaviour
         else if (drawMode == DrawMode.Mesh)
         {
             display.DrawMesh(TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
+            //display.DrawMesh(TerrainMeshGenerator.GenerateTerrainColliderMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
         }
         else if (drawMode == DrawMode.FallOffMap)
         {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EndlessTerrainScript : MonoBehaviour
 {
-    const float scale = 5f;
+    const float scale = 1f;
 
     const float viewerMoveThresholdForChunkUpdate = 25f;
     const float sqrViewerMoveThresholdForChunkUpdate = viewerMoveThresholdForChunkUpdate * viewerMoveThresholdForChunkUpdate;
@@ -32,6 +32,7 @@ public class EndlessTerrainScript : MonoBehaviour
         chunkSize = MapGeneratorScript.mapChunkSize - 1;
         chunksVisibleInViewDist = Mathf.RoundToInt(maxViewDst / chunkSize);
 
+        //TerrainMeshGenerator.GenerateTerrainColliderMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize)
         UpdateVisibleChunks();
     }
     void Update()
