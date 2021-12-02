@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor (typeof(MapGeneratorScript))]
+/*[CustomEditor (typeof(MapGeneratorScript))]
 [CanEditMultipleObjects]
 public class MapGeneratorEditor : Editor
 {
@@ -24,4 +24,4 @@ public class MapGeneratorEditor : Editor
             mapGen.DrawMapInEditor();
         }
     }
-}
+}*/
