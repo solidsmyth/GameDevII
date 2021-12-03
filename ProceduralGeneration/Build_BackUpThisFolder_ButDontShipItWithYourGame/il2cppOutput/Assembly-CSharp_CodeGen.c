@@ -101,31 +101,29 @@ extern void TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03
 extern void TerrainDisplay_DrawMesh_m926D1B0BFBFB54568DE41865BD3FC9E5C8AC3CFC (void);
 // 0x0000002D System.Void TerrainDisplay::.ctor()
 extern void TerrainDisplay__ctor_mD4F744C8A4F67FA4092B42168C6A4E52EB57C819 (void);
-// 0x0000002E MeshData TerrainMeshGenerator::GenerateTerrainMesh(System.Single[,],System.Single,UnityEngine.AnimationCurve,System.Int32,System.Boolean)
-extern void TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C (void);
-// 0x0000002F System.Void MeshData::.ctor(System.Int32,System.Boolean)
+// 0x0000002E System.Void MeshData::.ctor(System.Int32,System.Boolean)
 extern void MeshData__ctor_m3E8892EADC5565516A79B372C8C9DBA19CF8F73C (void);
-// 0x00000030 System.Void MeshData::AddVertex(UnityEngine.Vector3,UnityEngine.Vector2,System.Int32)
+// 0x0000002F System.Void MeshData::AddVertex(UnityEngine.Vector3,UnityEngine.Vector2,System.Int32)
 extern void MeshData_AddVertex_m3D732F511F9FB68C8359AFBD4135A1CA8E7488AA (void);
-// 0x00000031 System.Void MeshData::AddTriangle(System.Int32,System.Int32,System.Int32)
+// 0x00000030 System.Void MeshData::AddTriangle(System.Int32,System.Int32,System.Int32)
 extern void MeshData_AddTriangle_mA80626FED933D842FCDFFDC996A6B415F4DBEE22 (void);
-// 0x00000032 UnityEngine.Vector3[] MeshData::CalculateNormals()
+// 0x00000031 UnityEngine.Vector3[] MeshData::CalculateNormals()
 extern void MeshData_CalculateNormals_mF210CEC1CDC0C016CDAA9199E608AB42FBF4A719 (void);
-// 0x00000033 UnityEngine.Vector3 MeshData::SurfaceNormalFromIndices(System.Int32,System.Int32,System.Int32)
+// 0x00000032 UnityEngine.Vector3 MeshData::SurfaceNormalFromIndices(System.Int32,System.Int32,System.Int32)
 extern void MeshData_SurfaceNormalFromIndices_m4C887E54A430C490246CE125161725DACCFFEFEC (void);
-// 0x00000034 System.Void MeshData::ProcessMesh()
+// 0x00000033 System.Void MeshData::ProcessMesh()
 extern void MeshData_ProcessMesh_m7F579A7C0D6BE043BBF9F03E9192A78E947C23C2 (void);
-// 0x00000035 System.Void MeshData::BakeNormals()
+// 0x00000034 System.Void MeshData::BakeNormals()
 extern void MeshData_BakeNormals_m7ECD4F83EF14BBFD6B83589949AC7E6683EEB578 (void);
-// 0x00000036 System.Void MeshData::FlatShading()
+// 0x00000035 System.Void MeshData::FlatShading()
 extern void MeshData_FlatShading_m8BC4EE218E3B87DBCDE2C89131BAA41734384132 (void);
-// 0x00000037 UnityEngine.Mesh MeshData::CreateMesh()
+// 0x00000036 UnityEngine.Mesh MeshData::CreateMesh()
 extern void MeshData_CreateMesh_m0C0526F729CCAB828F02CC540CA1684C67D2458A (void);
-// 0x00000038 UnityEngine.Texture2D TextureGenerator::TextureFromColorMap(UnityEngine.Color[],System.Int32,System.Int32)
+// 0x00000037 UnityEngine.Texture2D TextureGenerator::TextureFromColorMap(UnityEngine.Color[],System.Int32,System.Int32)
 extern void TextureGenerator_TextureFromColorMap_m510AF38E0BB8E14421F770BF562DCBD6A6912131 (void);
-// 0x00000039 UnityEngine.Texture2D TextureGenerator::TextureFromHeightMap(System.Single[,])
+// 0x00000038 UnityEngine.Texture2D TextureGenerator::TextureFromHeightMap(System.Single[,])
 extern void TextureGenerator_TextureFromHeightMap_m225A9AEA953E3DB84804920C2159E658B061582E (void);
-static Il2CppMethodPointer s_methodPointers[57] = 
+static Il2CppMethodPointer s_methodPointers[56] = 
 {
 	MeshGeneratorScript_Start_m64F0ABD486E557A2B6241A12EBA52570984BC9F9,
 	MeshGeneratorScript_Update_mCBA1E034D87503E18D2FE663F69B90F8AFF7A3DE,
@@ -172,7 +170,6 @@ static Il2CppMethodPointer s_methodPointers[57] =
 	TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03,
 	TerrainDisplay_DrawMesh_m926D1B0BFBFB54568DE41865BD3FC9E5C8AC3CFC,
 	TerrainDisplay__ctor_mD4F744C8A4F67FA4092B42168C6A4E52EB57C819,
-	TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C,
 	MeshData__ctor_m3E8892EADC5565516A79B372C8C9DBA19CF8F73C,
 	MeshData_AddVertex_m3D732F511F9FB68C8359AFBD4135A1CA8E7488AA,
 	MeshData_AddTriangle_mA80626FED933D842FCDFFDC996A6B415F4DBEE22,
@@ -190,7 +187,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 {
 	{ 0x06000029, MapData__ctor_m4ECEA0F635B6E5B0246C417FF0BDC2723D2D9EEC_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[57] = 
+static const int32_t s_InvokerIndices[56] = 
 {
 	4438,
 	4438,
@@ -201,7 +198,7 @@ static const int32_t s_InvokerIndices[57] =
 	4438,
 	4438,
 	4438,
-	6808,
+	6807,
 	354,
 	3506,
 	3515,
@@ -211,13 +208,13 @@ static const int32_t s_InvokerIndices[57] =
 	1754,
 	3515,
 	3506,
-	6501,
-	6586,
+	6500,
+	6585,
 	4438,
 	4438,
 	4438,
 	4438,
-	6766,
+	6765,
 	4438,
 	1985,
 	1985,
@@ -237,7 +234,6 @@ static const int32_t s_InvokerIndices[57] =
 	3515,
 	1931,
 	4438,
-	4853,
 	1771,
 	1028,
 	944,
@@ -247,14 +243,14 @@ static const int32_t s_InvokerIndices[57] =
 	4438,
 	4438,
 	4345,
-	5482,
-	6505,
+	5481,
+	6504,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	57,
+	56,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

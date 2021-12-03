@@ -78,8 +78,6 @@ struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 // System.Int32[]
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
-// UnityEngine.Keyframe[]
-struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
 // System.Object[]
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 // TerrainType[]
@@ -178,19 +176,16 @@ struct U3CU3Ec__DisplayClass26_0_t7A3B1A6D22F5EFE3173C1B3FE775F0215E34A494;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t68603FA1C9E1BC60641DC12A696D3E2330673150_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t84B68B07A2C6918D7641B1F63B6448983505E046_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tC26C53A39FF78DDC5445354EA765B2AB0A408342_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EndlessTerrainScript_t54E024295836051345C01BAFB3DB7046558A5ED8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LODMeshU5BU5D_t858B88C24A0E5B3EA8D89D259D9F92D043AE7190_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LODMesh_t6271212FCD49BE5A76616B1221179722EA2F9C40_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t6B3B38943F57B835DCC4B040837517E56D566723_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MapGeneratorScript_t03AB16DC34918FCF4168C2800E855E900E05D0C7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD_il2cpp_TypeInfo_var;
@@ -222,14 +217,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m8649B7753B60B91C70BD901A12DE2
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mFDE7B6DE06B545D3EA205FCC3C4D9E0A207E468C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m2734EE599F7D0F84F255CFEBE448C7B1BDA49323_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m6E565FCAA9CC5F10BF46B45382C7FB886DE417CA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MapThreadInfo_1__ctor_m4392E32E2ACFB9C3CB46DADC76FF7DBD325A3585_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MapThreadInfo_1__ctor_mF6E208EDF88B6C630D0C145528AF70EFE83D5E28_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisMapGeneratorScript_t03AB16DC34918FCF4168C2800E855E900E05D0C7_m53F5FE3BA7214B966F93107065F7488EFCFDBBC6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisTerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F_m61B283C36F6BEFD511F6A467055C4E2178301BB8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_mF51ACB9688D7D6C6C99B51ACDA16482BC580F87B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_mFB3536DA7F16FD22CCAD18A3AD421716F4882958_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_m0012671827B2E9C98C2CB9C760C101ED584E72DD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_m848CEDD0A97CF1D5A8C12D0AAB941373D69F0D7D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m9C6BF24EED5F31A4E320B6705A383301324200BC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mBD57864CD9D61B6B11A1110BAF38C72B2E35C66A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_m75E6FED340560E0558D2EC747CBC4711450CE0EB_RuntimeMethod_var;
@@ -244,14 +237,12 @@ struct Delegate_t_marshaled_pinvoke;
 
 struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
-struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct TerrainTypeU5BU5D_tECECE2E36014635AF0495E9F4D5F6443DC155283;
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct LODInfoU5BU5D_tA4A9DFA0D9F85D53069512875A95AF3B16472E84;
 struct LODMeshU5BU5D_t858B88C24A0E5B3EA8D89D259D9F92D043AE7190;
-struct Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F;
 struct SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -589,25 +580,6 @@ struct IntPtr_t_StaticFields
 	intptr_t ___Zero_1;
 };
 
-// UnityEngine.Keyframe
-struct Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 
-{
-	// System.Single UnityEngine.Keyframe::m_Time
-	float ___m_Time_0;
-	// System.Single UnityEngine.Keyframe::m_Value
-	float ___m_Value_1;
-	// System.Single UnityEngine.Keyframe::m_InTangent
-	float ___m_InTangent_2;
-	// System.Single UnityEngine.Keyframe::m_OutTangent
-	float ___m_OutTangent_3;
-	// System.Int32 UnityEngine.Keyframe::m_WeightedMode
-	int32_t ___m_WeightedMode_4;
-	// System.Single UnityEngine.Keyframe::m_InWeight
-	float ___m_InWeight_5;
-	// System.Single UnityEngine.Keyframe::m_OutWeight
-	float ___m_OutWeight_6;
-};
-
 // MapData
 struct MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC 
 {
@@ -787,23 +759,6 @@ struct MapThreadInfo_1_t48CEFA4526816D72657252ECA6EC04FD37977A0F
 	Action_1_t68603FA1C9E1BC60641DC12A696D3E2330673150* ___callback_0;
 	// T MapGeneratorScript/MapThreadInfo`1::parameter
 	MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC ___parameter_1;
-};
-
-// UnityEngine.AnimationCurve
-struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
-{
-	// System.IntPtr UnityEngine.AnimationCurve::m_Ptr
-	intptr_t ___m_Ptr_0;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.AnimationCurve
-struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-};
-// Native definition for COM marshalling of UnityEngine.AnimationCurve
-struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
 };
 
 // UnityEngine.Bounds
@@ -1557,123 +1512,6 @@ struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public Runtime
 		m_Items[index] = value;
 	}
 };
-// System.Int32[,]
-struct Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
-	{
-		m_Items[index] = value;
-	}
-	inline int32_t GetAt(il2cpp_array_size_t i, il2cpp_array_size_t j) const
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t i, il2cpp_array_size_t j)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t i, il2cpp_array_size_t j, int32_t value)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j) const
-	{
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j)
-	{
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, int32_t value)
-	{
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Keyframe[]
-struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 m_Items[1];
-
-	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Object[]
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
 {
@@ -1743,10 +1581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapThreadInfo_1__ctor_mF6E208EDF88B6C630D0C145528AF70EFE83D5E28_gshared (MapThreadInfo_1_t48CEFA4526816D72657252ECA6EC04FD37977A0F* __this, Action_1_t68603FA1C9E1BC60641DC12A696D3E2330673150* ___callback0, MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC ___parameter1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<MapData>>::Enqueue(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m0012671827B2E9C98C2CB9C760C101ED584E72DD_gshared (Queue_1_tDC2148E68CEB5EA3B3125B335F1CAF79B86C59F6* __this, MapThreadInfo_1_t48CEFA4526816D72657252ECA6EC04FD37977A0F ___item0, const RuntimeMethod* method) ;
-// System.Void MapGeneratorScript/MapThreadInfo`1<System.Object>::.ctor(System.Action`1<T>,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapThreadInfo_1__ctor_mFE40994687EFF2F3096E43327DE8FE2459DBC24A_gshared (MapThreadInfo_1_t954B2F2C59AAE0CACA2EA5B99ED2644C0E9A5383* __this, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___callback0, RuntimeObject* ___parameter1, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<System.Object>>::Enqueue(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m9FAD668108B212AE5420D039625F2EEA1D68CE99_gshared (Queue_1_t75B705F5D341C7A1F34B93714BBFB0DD8F6DFF4B* __this, MapThreadInfo_1_t954B2F2C59AAE0CACA2EA5B99ED2644C0E9A5383 ___item0, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<MapData>>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_mD03B9847F0D48786D32B193719851E0D82AEF934_gshared_inline (Queue_1_tDC2148E68CEB5EA3B3125B335F1CAF79B86C59F6* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<MapData>>::Dequeue()
@@ -1967,10 +1801,6 @@ inline TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* Object_FindObje
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* TextureGenerator_TextureFromHeightMap_m225A9AEA953E3DB84804920C2159E658B061582E (SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___heightMap0, const RuntimeMethod* method) ;
 // System.Void TerrainDisplay::DrawTexture(UnityEngine.Texture2D)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03 (TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* __this, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___texture0, const RuntimeMethod* method) ;
-// MeshData TerrainMeshGenerator::GenerateTerrainMesh(System.Single[,],System.Single,UnityEngine.AnimationCurve,System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C (SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___heightMap0, float ___heightMultipler1, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ____heightCurve2, int32_t ___levelOfDetail3, bool ___useFlatShading4, const RuntimeMethod* method) ;
-// System.Void TerrainDisplay::DrawMesh(MeshData,UnityEngine.Texture2D)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainDisplay_DrawMesh_m926D1B0BFBFB54568DE41865BD3FC9E5C8AC3CFC (TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* __this, MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* ___meshData0, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___texture1, const RuntimeMethod* method) ;
 // System.Void MapGeneratorScript/<>c__DisplayClass24_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0__ctor_m9A20BF49DC6B3EDB18400856F189A9CA35EFF106 (U3CU3Ec__DisplayClass24_0_tA691A3F239B78337E8D6A96BD1CE69CB6D58EE30* __this, const RuntimeMethod* method) ;
 // System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
@@ -1995,16 +1825,6 @@ inline void Queue_1_Enqueue_m0012671827B2E9C98C2CB9C760C101ED584E72DD (Queue_1_t
 }
 // System.Void MapGeneratorScript/<>c__DisplayClass26_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0__ctor_mA4DA28B31F6B8A3ED01719B076D74FCBE87903DC (U3CU3Ec__DisplayClass26_0_t7A3B1A6D22F5EFE3173C1B3FE775F0215E34A494* __this, const RuntimeMethod* method) ;
-// System.Void MapGeneratorScript/MapThreadInfo`1<MeshData>::.ctor(System.Action`1<T>,T)
-inline void MapThreadInfo_1__ctor_m4392E32E2ACFB9C3CB46DADC76FF7DBD325A3585 (MapThreadInfo_1_t687A438409BFC552F194BA284A5988D532E75DF1* __this, Action_1_t84B68B07A2C6918D7641B1F63B6448983505E046* ___callback0, MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* ___parameter1, const RuntimeMethod* method)
-{
-	((  void (*) (MapThreadInfo_1_t687A438409BFC552F194BA284A5988D532E75DF1*, Action_1_t84B68B07A2C6918D7641B1F63B6448983505E046*, MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23*, const RuntimeMethod*))MapThreadInfo_1__ctor_mFE40994687EFF2F3096E43327DE8FE2459DBC24A_gshared)(__this, ___callback0, ___parameter1, method);
-}
-// System.Void System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<MeshData>>::Enqueue(T)
-inline void Queue_1_Enqueue_m848CEDD0A97CF1D5A8C12D0AAB941373D69F0D7D (Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* __this, MapThreadInfo_1_t687A438409BFC552F194BA284A5988D532E75DF1 ___item0, const RuntimeMethod* method)
-{
-	((  void (*) (Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD*, MapThreadInfo_1_t687A438409BFC552F194BA284A5988D532E75DF1, const RuntimeMethod*))Queue_1_Enqueue_m9FAD668108B212AE5420D039625F2EEA1D68CE99_gshared)(__this, ___item0, method);
-}
 // System.Int32 System.Collections.Generic.Queue`1<MapGeneratorScript/MapThreadInfo`1<MapData>>::get_Count()
 inline int32_t Queue_1_get_Count_mD03B9847F0D48786D32B193719851E0D82AEF934_inline (Queue_1_tDC2148E68CEB5EA3B3125B335F1CAF79B86C59F6* __this, const RuntimeMethod* method)
 {
@@ -2067,22 +1887,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_m154E404AF275A3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Renderer_get_sharedMaterial_mA2E0CA0A564617FFC3E0E50947C6300082C35F81 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MeshFilter::set_sharedMesh(UnityEngine.Mesh)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___value0, const RuntimeMethod* method) ;
-// UnityEngine.Keyframe[] UnityEngine.AnimationCurve::get_keys()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AnimationCurve::.ctor(UnityEngine.Keyframe[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* ___keys0, const RuntimeMethod* method) ;
-// System.Int32 System.Array::GetLength(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935 (RuntimeArray* __this, int32_t ___dimension0, const RuntimeMethod* method) ;
-// System.Void MeshData::.ctor(System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData__ctor_m3E8892EADC5565516A79B372C8C9DBA19CF8F73C (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* __this, int32_t ___verticesPerLine0, bool ___useFlatShading1, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AnimationCurve::Evaluate(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, float ___time0, const RuntimeMethod* method) ;
-// System.Void MeshData::AddVertex(UnityEngine.Vector3,UnityEngine.Vector2,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_AddVertex_m3D732F511F9FB68C8359AFBD4135A1CA8E7488AA (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___vertexPosition0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___uv1, int32_t ___vertexIndex2, const RuntimeMethod* method) ;
-// System.Void MeshData::AddTriangle(System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_AddTriangle_mA80626FED933D842FCDFFDC996A6B415F4DBEE22 (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* __this, int32_t ___a0, int32_t ___b1, int32_t ___c2, const RuntimeMethod* method) ;
-// System.Void MeshData::ProcessMesh()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshData_ProcessMesh_m7F579A7C0D6BE043BBF9F03E9192A78E947C23C2 (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 MeshData::SurfaceNormalFromIndices(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MeshData_SurfaceNormalFromIndices_m4C887E54A430C490246CE125161725DACCFFEFEC (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* __this, int32_t ___indexA0, int32_t ___indexB1, int32_t ___indexC2, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -2115,6 +1919,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_wrapMode_m1F74A690E3883EC9C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixels_mAE0CDFA15FA96F840D7FFADC31405D8AF20D9073 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___colors0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::Apply()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Array::GetLength(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935 (RuntimeArray* __this, int32_t ___dimension0, const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_black()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mBF96B603B41BED9BAFAA10CE8D946D24260F9729_inline (const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_white()
@@ -3805,7 +3611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGeneratorScript_DrawMapInEditor_m388C
 		bool L_4 = V_2;
 		if (!L_4)
 		{
-			goto IL_0039;
+			goto IL_0036;
 		}
 	}
 	{
@@ -3817,10 +3623,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGeneratorScript_DrawMapInEditor_m388C
 		L_8 = TextureGenerator_TextureFromHeightMap_m225A9AEA953E3DB84804920C2159E658B061582E(L_7, NULL);
 		NullCheck(L_5);
 		TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03(L_5, L_8, NULL);
-		goto IL_00df;
+		goto IL_009d;
 	}
 
-IL_0039:
+IL_0036:
 	{
 		// else if (drawMode == DrawMode.ColorMap)
 		int32_t L_9 = __this->___drawMode_4;
@@ -3828,7 +3634,7 @@ IL_0039:
 		bool L_10 = V_3;
 		if (!L_10)
 		{
-			goto IL_0066;
+			goto IL_0063;
 		}
 	}
 	{
@@ -3844,10 +3650,10 @@ IL_0039:
 		L_16 = TextureGenerator_TextureFromColorMap_m510AF38E0BB8E14421F770BF562DCBD6A6912131(L_13, L_14, L_15, NULL);
 		NullCheck(L_11);
 		TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03(L_11, L_16, NULL);
-		goto IL_00df;
+		goto IL_009d;
 	}
 
-IL_0066:
+IL_0063:
 	{
 		// else if (drawMode == DrawMode.Mesh)
 		int32_t L_17 = __this->___drawMode_4;
@@ -3855,58 +3661,38 @@ IL_0066:
 		bool L_18 = V_4;
 		if (!L_18)
 		{
-			goto IL_00b8;
+			goto IL_0076;
 		}
 	}
 	{
-		// display.DrawMesh(TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD, useFlatShading), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
-		TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* L_19 = V_1;
-		MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC L_20 = V_0;
-		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_21 = L_20.___heightMap_0;
-		float L_22 = __this->___meshHeightMultipler_15;
-		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_23 = __this->___meshHeigthCurve_16;
-		int32_t L_24 = __this->___editorPreviewLOD_7;
-		bool L_25 = __this->___useFlatShading_6;
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_26;
-		L_26 = TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C(L_21, L_22, L_23, L_24, L_25, NULL);
-		MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC L_27 = V_0;
-		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_28 = L_27.___colorMap_1;
-		int32_t L_29;
-		L_29 = MapGeneratorScript_get_mapChunkSize_m266F863166CF7EE922A1FE7AC618D836EB4F57B3(NULL);
-		int32_t L_30;
-		L_30 = MapGeneratorScript_get_mapChunkSize_m266F863166CF7EE922A1FE7AC618D836EB4F57B3(NULL);
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_31;
-		L_31 = TextureGenerator_TextureFromColorMap_m510AF38E0BB8E14421F770BF562DCBD6A6912131(L_28, L_29, L_30, NULL);
-		NullCheck(L_19);
-		TerrainDisplay_DrawMesh_m926D1B0BFBFB54568DE41865BD3FC9E5C8AC3CFC(L_19, L_26, L_31, NULL);
-		goto IL_00df;
+		goto IL_009d;
 	}
 
-IL_00b8:
+IL_0076:
 	{
 		// else if (drawMode == DrawMode.FallOffMap)
-		int32_t L_32 = __this->___drawMode_4;
-		V_5 = (bool)((((int32_t)L_32) == ((int32_t)3))? 1 : 0);
-		bool L_33 = V_5;
-		if (!L_33)
+		int32_t L_19 = __this->___drawMode_4;
+		V_5 = (bool)((((int32_t)L_19) == ((int32_t)3))? 1 : 0);
+		bool L_20 = V_5;
+		if (!L_20)
 		{
-			goto IL_00df;
+			goto IL_009d;
 		}
 	}
 	{
 		// display.DrawTexture(TextureGenerator.TextureFromHeightMap(FallOffGenerator.GenerateFalloffMap(mapChunkSize)));
-		TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* L_34 = V_1;
-		int32_t L_35;
-		L_35 = MapGeneratorScript_get_mapChunkSize_m266F863166CF7EE922A1FE7AC618D836EB4F57B3(NULL);
-		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_36;
-		L_36 = FallOffGenerator_GenerateFalloffMap_m63DF1C66C8103FB82AF5B7B844D8AF7C46777958(L_35, NULL);
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_37;
-		L_37 = TextureGenerator_TextureFromHeightMap_m225A9AEA953E3DB84804920C2159E658B061582E(L_36, NULL);
-		NullCheck(L_34);
-		TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03(L_34, L_37, NULL);
+		TerrainDisplay_tFE2C8BA260C75B29D7EC176822015F7DDB342C2F* L_21 = V_1;
+		int32_t L_22;
+		L_22 = MapGeneratorScript_get_mapChunkSize_m266F863166CF7EE922A1FE7AC618D836EB4F57B3(NULL);
+		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_23;
+		L_23 = FallOffGenerator_GenerateFalloffMap_m63DF1C66C8103FB82AF5B7B844D8AF7C46777958(L_22, NULL);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_24;
+		L_24 = TextureGenerator_TextureFromHeightMap_m225A9AEA953E3DB84804920C2159E658B061582E(L_23, NULL);
+		NullCheck(L_21);
+		TerrainDisplay_DrawTexture_mB940B23195C189C5BF9C9992FB8AE06C82EF0B03(L_21, L_24, NULL);
 	}
 
-IL_00df:
+IL_009d:
 	{
 		// }
 		return;
@@ -4103,78 +3889,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGeneratorScript_RequestMeshData_m8AD6
 // System.Void MapGeneratorScript::MeshDataThread(MapData,System.Int32,System.Action`1<MeshData>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGeneratorScript_MeshDataThread_m34ACBFFBA450E2850238526CC2B773E8A9483FCB (MapGeneratorScript_t03AB16DC34918FCF4168C2800E855E900E05D0C7* __this, MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC ___mapData0, int32_t ___lod1, Action_1_t84B68B07A2C6918D7641B1F63B6448983505E046* ___callback2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapThreadInfo_1__ctor_m4392E32E2ACFB9C3CB46DADC76FF7DBD325A3585_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Enqueue_m848CEDD0A97CF1D5A8C12D0AAB941373D69F0D7D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* V_0 = NULL;
-	Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* V_1 = NULL;
-	bool V_2 = false;
-	{
-		// MeshData meshData = TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, lod, useFlatShading);
-		MapData_tEFF5E9C37A2686955E6AB4F2E8BEBC59D5061DAC L_0 = ___mapData0;
-		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_1 = L_0.___heightMap_0;
-		float L_2 = __this->___meshHeightMultipler_15;
-		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_3 = __this->___meshHeigthCurve_16;
-		int32_t L_4 = ___lod1;
-		bool L_5 = __this->___useFlatShading_6;
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_6;
-		L_6 = TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C(L_1, L_2, L_3, L_4, L_5, NULL);
-		V_0 = L_6;
-		// lock (meshDataThreadInfoQueue)
-		Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* L_7 = __this->___meshDataThreadInfoQueue_22;
-		V_1 = L_7;
-		V_2 = (bool)0;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0049:
-			{// begin finally (depth: 1)
-				{
-					bool L_8 = V_2;
-					if (!L_8)
-					{
-						goto IL_0053;
-					}
-				}
-				{
-					Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* L_9 = V_1;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_9, NULL);
-				}
-
-IL_0053:
-				{
-					return;
-				}
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* L_10 = V_1;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_10, (&V_2), NULL);
-			// meshDataThreadInfoQueue.Enqueue(new MapThreadInfo<MeshData>(callback, meshData));
-			Queue_1_t5917BC2865F42EC57B9FB96E43600FD6E8F37EBD* L_11 = __this->___meshDataThreadInfoQueue_22;
-			Action_1_t84B68B07A2C6918D7641B1F63B6448983505E046* L_12 = ___callback2;
-			MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_13 = V_0;
-			MapThreadInfo_1_t687A438409BFC552F194BA284A5988D532E75DF1 L_14;
-			memset((&L_14), 0, sizeof(L_14));
-			MapThreadInfo_1__ctor_m4392E32E2ACFB9C3CB46DADC76FF7DBD325A3585((&L_14), L_12, L_13, /*hidden argument*/MapThreadInfo_1__ctor_m4392E32E2ACFB9C3CB46DADC76FF7DBD325A3585_RuntimeMethod_var);
-			NullCheck(L_11);
-			Queue_1_Enqueue_m848CEDD0A97CF1D5A8C12D0AAB941373D69F0D7D(L_11, L_14, Queue_1_Enqueue_m848CEDD0A97CF1D5A8C12D0AAB941373D69F0D7D_RuntimeMethod_var);
-			goto IL_0054;
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0054:
 	{
 		// }
 		return;
@@ -5344,456 +5058,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainDisplay__ctor_mD4F744C8A4F67FA409
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// MeshData TerrainMeshGenerator::GenerateTerrainMesh(System.Single[,],System.Single,UnityEngine.AnimationCurve,System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* TerrainMeshGenerator_GenerateTerrainMesh_m8611127E44E9568516672A2B88ABF676CDC9D88C (SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___heightMap0, float ___heightMultipler1, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ____heightCurve2, int32_t ___levelOfDetail3, bool ___useFlatShading4, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* V_0 = NULL;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	int32_t V_4 = 0;
-	float V_5 = 0.0f;
-	float V_6 = 0.0f;
-	int32_t V_7 = 0;
-	MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* V_8 = NULL;
-	Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* V_9 = NULL;
-	int32_t V_10 = 0;
-	int32_t V_11 = 0;
-	int32_t V_12 = 0;
-	int32_t V_13 = 0;
-	bool V_14 = false;
-	bool V_15 = false;
-	bool V_16 = false;
-	bool V_17 = false;
-	int32_t V_18 = 0;
-	int32_t V_19 = 0;
-	int32_t V_20 = 0;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_21;
-	memset((&V_21), 0, sizeof(V_21));
-	float V_22 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_23;
-	memset((&V_23), 0, sizeof(V_23));
-	bool V_24 = false;
-	int32_t V_25 = 0;
-	int32_t V_26 = 0;
-	int32_t V_27 = 0;
-	int32_t V_28 = 0;
-	bool V_29 = false;
-	bool V_30 = false;
-	MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* V_31 = NULL;
-	int32_t G_B3_0 = 0;
-	int32_t G_B10_0 = 0;
-	int32_t G_B22_0 = 0;
-	{
-		// AnimationCurve heightCurve = new AnimationCurve(_heightCurve.keys);
-		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0 = ____heightCurve2;
-		NullCheck(L_0);
-		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1;
-		L_1 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_0, NULL);
-		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_2 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_2, L_1, NULL);
-		V_0 = L_2;
-		// int meshSimplificationIncrement = (levelOfDetail == 0) ? 1 : levelOfDetail * 2;
-		int32_t L_3 = ___levelOfDetail3;
-		if (!L_3)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		int32_t L_4 = ___levelOfDetail3;
-		G_B3_0 = ((int32_t)il2cpp_codegen_multiply(L_4, 2));
-		goto IL_0016;
-	}
-
-IL_0015:
-	{
-		G_B3_0 = 1;
-	}
-
-IL_0016:
-	{
-		V_1 = G_B3_0;
-		// int borderedSize = heightMap.GetLength(0);
-		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_5 = ___heightMap0;
-		NullCheck((RuntimeArray*)L_5);
-		int32_t L_6;
-		L_6 = Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935((RuntimeArray*)L_5, 0, NULL);
-		V_2 = L_6;
-		// int meshSize = borderedSize - 2 * meshSimplificationIncrement;
-		int32_t L_7 = V_2;
-		int32_t L_8 = V_1;
-		V_3 = ((int32_t)il2cpp_codegen_subtract(L_7, ((int32_t)il2cpp_codegen_multiply(2, L_8))));
-		// int meshSizeUnsimplified = borderedSize - 2;
-		int32_t L_9 = V_2;
-		V_4 = ((int32_t)il2cpp_codegen_subtract(L_9, 2));
-		// float topLeftX = (meshSizeUnsimplified - 1) / -2f;
-		int32_t L_10 = V_4;
-		V_5 = ((float)(((float)((int32_t)il2cpp_codegen_subtract(L_10, 1)))/(-2.0f)));
-		// float topLeftZ = (meshSizeUnsimplified - 1) / 2f;
-		int32_t L_11 = V_4;
-		V_6 = ((float)(((float)((int32_t)il2cpp_codegen_subtract(L_11, 1)))/(2.0f)));
-		// int verticesPerLine = (meshSize - 1) / meshSimplificationIncrement + 1;
-		int32_t L_12 = V_3;
-		int32_t L_13 = V_1;
-		V_7 = ((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)il2cpp_codegen_subtract(L_12, 1))/L_13)), 1));
-		// MeshData meshData = new MeshData(verticesPerLine, useFlatShading);
-		int32_t L_14 = V_7;
-		bool L_15 = ___useFlatShading4;
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_16 = (MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23*)il2cpp_codegen_object_new(MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23_il2cpp_TypeInfo_var);
-		NullCheck(L_16);
-		MeshData__ctor_m3E8892EADC5565516A79B372C8C9DBA19CF8F73C(L_16, L_14, L_15, NULL);
-		V_8 = L_16;
-		// int[,] vertexIndicesMap = new int[borderedSize, borderedSize];
-		int32_t L_17 = V_2;
-		int32_t L_18 = V_2;
-		il2cpp_array_size_t L_20[] = { (il2cpp_array_size_t)L_17, (il2cpp_array_size_t)L_18 };
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_19 = (Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F*)GenArrayNew(Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var, L_20);
-		V_9 = L_19;
-		// int meshVertexIndex = 0;
-		V_10 = 0;
-		// int borderVertexIndex = -1;
-		V_11 = (-1);
-		// for (int y = 0; y < borderedSize; y += meshSimplificationIncrement)
-		V_12 = 0;
-		goto IL_00db;
-	}
-
-IL_006c:
-	{
-		// for (int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		V_13 = 0;
-		goto IL_00c9;
-	}
-
-IL_0072:
-	{
-		// bool isBorderVertex = y == 0 || y == borderedSize - 1 || x == 0 || x == borderedSize - 1;
-		int32_t L_21 = V_12;
-		if (!L_21)
-		{
-			goto IL_008b;
-		}
-	}
-	{
-		int32_t L_22 = V_12;
-		int32_t L_23 = V_2;
-		if ((((int32_t)L_22) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_23, 1)))))
-		{
-			goto IL_008b;
-		}
-	}
-	{
-		int32_t L_24 = V_13;
-		if (!L_24)
-		{
-			goto IL_008b;
-		}
-	}
-	{
-		int32_t L_25 = V_13;
-		int32_t L_26 = V_2;
-		G_B10_0 = ((((int32_t)L_25) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_26, 1))))? 1 : 0);
-		goto IL_008c;
-	}
-
-IL_008b:
-	{
-		G_B10_0 = 1;
-	}
-
-IL_008c:
-	{
-		V_14 = (bool)G_B10_0;
-		// if (isBorderVertex)
-		bool L_27 = V_14;
-		V_15 = L_27;
-		bool L_28 = V_15;
-		if (!L_28)
-		{
-			goto IL_00ad;
-		}
-	}
-	{
-		// vertexIndicesMap[x, y] = borderVertexIndex;
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_29 = V_9;
-		int32_t L_30 = V_13;
-		int32_t L_31 = V_12;
-		int32_t L_32 = V_11;
-		NullCheck(L_29);
-		(L_29)->SetAt(L_30, L_31, L_32);
-		// borderVertexIndex--;
-		int32_t L_33 = V_11;
-		V_11 = ((int32_t)il2cpp_codegen_subtract(L_33, 1));
-		goto IL_00c2;
-	}
-
-IL_00ad:
-	{
-		// vertexIndicesMap[x, y] = meshVertexIndex;
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_34 = V_9;
-		int32_t L_35 = V_13;
-		int32_t L_36 = V_12;
-		int32_t L_37 = V_10;
-		NullCheck(L_34);
-		(L_34)->SetAt(L_35, L_36, L_37);
-		// meshVertexIndex++;
-		int32_t L_38 = V_10;
-		V_10 = ((int32_t)il2cpp_codegen_add(L_38, 1));
-	}
-
-IL_00c2:
-	{
-		// for (int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		int32_t L_39 = V_13;
-		int32_t L_40 = V_1;
-		V_13 = ((int32_t)il2cpp_codegen_add(L_39, L_40));
-	}
-
-IL_00c9:
-	{
-		// for (int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		int32_t L_41 = V_13;
-		int32_t L_42 = V_2;
-		V_16 = (bool)((((int32_t)L_41) < ((int32_t)L_42))? 1 : 0);
-		bool L_43 = V_16;
-		if (L_43)
-		{
-			goto IL_0072;
-		}
-	}
-	{
-		// for (int y = 0; y < borderedSize; y += meshSimplificationIncrement)
-		int32_t L_44 = V_12;
-		int32_t L_45 = V_1;
-		V_12 = ((int32_t)il2cpp_codegen_add(L_44, L_45));
-	}
-
-IL_00db:
-	{
-		// for (int y = 0; y < borderedSize; y += meshSimplificationIncrement)
-		int32_t L_46 = V_12;
-		int32_t L_47 = V_2;
-		V_17 = (bool)((((int32_t)L_46) < ((int32_t)L_47))? 1 : 0);
-		bool L_48 = V_17;
-		if (L_48)
-		{
-			goto IL_006c;
-		}
-	}
-	{
-		// for (int y = 0; y < borderedSize; y+= meshSimplificationIncrement)
-		V_18 = 0;
-		goto IL_01f6;
-	}
-
-IL_00ee:
-	{
-		// for(int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		V_19 = 0;
-		goto IL_01e1;
-	}
-
-IL_00f7:
-	{
-		// int vertexIndex = vertexIndicesMap[x, y];
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_49 = V_9;
-		int32_t L_50 = V_19;
-		int32_t L_51 = V_18;
-		NullCheck(L_49);
-		int32_t L_52;
-		L_52 = (L_49)->GetAt(L_50, L_51);
-		V_20 = L_52;
-		// Vector2 percent = new Vector2((x - meshSimplificationIncrement) / (float)meshSize, (y - meshSimplificationIncrement) / (float)meshSize);
-		int32_t L_53 = V_19;
-		int32_t L_54 = V_1;
-		int32_t L_55 = V_3;
-		int32_t L_56 = V_18;
-		int32_t L_57 = V_1;
-		int32_t L_58 = V_3;
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_21), ((float)(((float)((int32_t)il2cpp_codegen_subtract(L_53, L_54)))/((float)L_55))), ((float)(((float)((int32_t)il2cpp_codegen_subtract(L_56, L_57)))/((float)L_58))), NULL);
-		// float height = heightCurve.Evaluate (heightMap[x, y]) * heightMultipler;
-		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_59 = V_0;
-		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_60 = ___heightMap0;
-		int32_t L_61 = V_19;
-		int32_t L_62 = V_18;
-		NullCheck(L_60);
-		float L_63;
-		L_63 = (L_60)->GetAt(L_61, L_62);
-		NullCheck(L_59);
-		float L_64;
-		L_64 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_59, L_63, NULL);
-		float L_65 = ___heightMultipler1;
-		V_22 = ((float)il2cpp_codegen_multiply(L_64, L_65));
-		// Vector3 vertexPosition = new Vector3(topLeftX + percent.x * meshSizeUnsimplified, height, topLeftZ - percent.y * meshSizeUnsimplified);
-		float L_66 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_67 = V_21;
-		float L_68 = L_67.___x_0;
-		int32_t L_69 = V_4;
-		float L_70 = V_22;
-		float L_71 = V_6;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_72 = V_21;
-		float L_73 = L_72.___y_1;
-		int32_t L_74 = V_4;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_23), ((float)il2cpp_codegen_add(L_66, ((float)il2cpp_codegen_multiply(L_68, ((float)L_69))))), L_70, ((float)il2cpp_codegen_subtract(L_71, ((float)il2cpp_codegen_multiply(L_73, ((float)L_74))))), NULL);
-		// meshData.AddVertex (vertexPosition, percent, vertexIndex);
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_75 = V_8;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = V_23;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_77 = V_21;
-		int32_t L_78 = V_20;
-		NullCheck(L_75);
-		MeshData_AddVertex_m3D732F511F9FB68C8359AFBD4135A1CA8E7488AA(L_75, L_76, L_77, L_78, NULL);
-		// if(x < borderedSize - 1 && y < borderedSize - 1)
-		int32_t L_79 = V_19;
-		int32_t L_80 = V_2;
-		if ((((int32_t)L_79) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_80, 1)))))
-		{
-			goto IL_0173;
-		}
-	}
-	{
-		int32_t L_81 = V_18;
-		int32_t L_82 = V_2;
-		G_B22_0 = ((((int32_t)L_81) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_82, 1))))? 1 : 0);
-		goto IL_0174;
-	}
-
-IL_0173:
-	{
-		G_B22_0 = 0;
-	}
-
-IL_0174:
-	{
-		V_24 = (bool)G_B22_0;
-		bool L_83 = V_24;
-		if (!L_83)
-		{
-			goto IL_01d4;
-		}
-	}
-	{
-		// int a = vertexIndicesMap[x, y];
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_84 = V_9;
-		int32_t L_85 = V_19;
-		int32_t L_86 = V_18;
-		NullCheck(L_84);
-		int32_t L_87;
-		L_87 = (L_84)->GetAt(L_85, L_86);
-		V_25 = L_87;
-		// int b = vertexIndicesMap[x + meshSimplificationIncrement, y];
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_88 = V_9;
-		int32_t L_89 = V_19;
-		int32_t L_90 = V_1;
-		int32_t L_91 = V_18;
-		NullCheck(L_88);
-		int32_t L_92;
-		L_92 = (L_88)->GetAt(((int32_t)il2cpp_codegen_add(L_89, L_90)), L_91);
-		V_26 = L_92;
-		// int c = vertexIndicesMap[x, y + meshSimplificationIncrement];
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_93 = V_9;
-		int32_t L_94 = V_19;
-		int32_t L_95 = V_18;
-		int32_t L_96 = V_1;
-		NullCheck(L_93);
-		int32_t L_97;
-		L_97 = (L_93)->GetAt(L_94, ((int32_t)il2cpp_codegen_add(L_95, L_96)));
-		V_27 = L_97;
-		// int d = vertexIndicesMap[x + meshSimplificationIncrement, y + meshSimplificationIncrement];
-		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_98 = V_9;
-		int32_t L_99 = V_19;
-		int32_t L_100 = V_1;
-		int32_t L_101 = V_18;
-		int32_t L_102 = V_1;
-		NullCheck(L_98);
-		int32_t L_103;
-		L_103 = (L_98)->GetAt(((int32_t)il2cpp_codegen_add(L_99, L_100)), ((int32_t)il2cpp_codegen_add(L_101, L_102)));
-		V_28 = L_103;
-		// meshData.AddTriangle(a,d,c);
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_104 = V_8;
-		int32_t L_105 = V_25;
-		int32_t L_106 = V_28;
-		int32_t L_107 = V_27;
-		NullCheck(L_104);
-		MeshData_AddTriangle_mA80626FED933D842FCDFFDC996A6B415F4DBEE22(L_104, L_105, L_106, L_107, NULL);
-		// meshData.AddTriangle(d,a,b);
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_108 = V_8;
-		int32_t L_109 = V_28;
-		int32_t L_110 = V_25;
-		int32_t L_111 = V_26;
-		NullCheck(L_108);
-		MeshData_AddTriangle_mA80626FED933D842FCDFFDC996A6B415F4DBEE22(L_108, L_109, L_110, L_111, NULL);
-	}
-
-IL_01d4:
-	{
-		// vertexIndex++;
-		int32_t L_112 = V_20;
-		V_20 = ((int32_t)il2cpp_codegen_add(L_112, 1));
-		// for(int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		int32_t L_113 = V_19;
-		int32_t L_114 = V_1;
-		V_19 = ((int32_t)il2cpp_codegen_add(L_113, L_114));
-	}
-
-IL_01e1:
-	{
-		// for(int x = 0; x < borderedSize; x += meshSimplificationIncrement)
-		int32_t L_115 = V_19;
-		int32_t L_116 = V_2;
-		V_29 = (bool)((((int32_t)L_115) < ((int32_t)L_116))? 1 : 0);
-		bool L_117 = V_29;
-		if (L_117)
-		{
-			goto IL_00f7;
-		}
-	}
-	{
-		// for (int y = 0; y < borderedSize; y+= meshSimplificationIncrement)
-		int32_t L_118 = V_18;
-		int32_t L_119 = V_1;
-		V_18 = ((int32_t)il2cpp_codegen_add(L_118, L_119));
-	}
-
-IL_01f6:
-	{
-		// for (int y = 0; y < borderedSize; y+= meshSimplificationIncrement)
-		int32_t L_120 = V_18;
-		int32_t L_121 = V_2;
-		V_30 = (bool)((((int32_t)L_120) < ((int32_t)L_121))? 1 : 0);
-		bool L_122 = V_30;
-		if (L_122)
-		{
-			goto IL_00ee;
-		}
-	}
-	{
-		// meshData.ProcessMesh();
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_123 = V_8;
-		NullCheck(L_123);
-		MeshData_ProcessMesh_m7F579A7C0D6BE043BBF9F03E9192A78E947C23C2(L_123, NULL);
-		// return meshData;
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_124 = V_8;
-		V_31 = L_124;
-		goto IL_0212;
-	}
-
-IL_0212:
-	{
-		// }
-		MeshData_t9D6F7686BF953CE98E88DE588F9762B86853CE23* L_125 = V_31;
-		return L_125;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

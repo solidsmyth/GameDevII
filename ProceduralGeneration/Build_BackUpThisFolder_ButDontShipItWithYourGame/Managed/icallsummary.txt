@@ -169,7 +169,6 @@ UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Evaluate
 UnityEngine.AnimationCurve::Internal_Destroy
-UnityEngine.AnimationCurve::GetKeys
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables
 UnityEngine.Animator::ResetTriggerString

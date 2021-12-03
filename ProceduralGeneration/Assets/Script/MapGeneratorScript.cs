@@ -81,7 +81,7 @@ public class MapGeneratorScript : MonoBehaviour
         }
         else if (drawMode == DrawMode.Mesh)
         {
-            display.DrawMesh(TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD, useFlatShading), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
+            //display.DrawMesh(TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD, useFlatShading), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
             //display.DrawMesh(TerrainMeshGenerator.GenerateTerrainColliderMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, editorPreviewLOD), TextureGenerator.TextureFromColorMap(mapData.colorMap, mapChunkSize, mapChunkSize));
         }
         else if (drawMode == DrawMode.FallOffMap)
@@ -121,11 +121,11 @@ public class MapGeneratorScript : MonoBehaviour
 
     void MeshDataThread(MapData mapData, int lod,  Action<MeshData> callback)
     {
-        MeshData meshData = TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, lod, useFlatShading);
+        /*MeshData meshData = TerrainMeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultipler, meshHeigthCurve, lod, useFlatShading);
         lock (meshDataThreadInfoQueue)
         {
             meshDataThreadInfoQueue.Enqueue(new MapThreadInfo<MeshData>(callback, meshData));
-        }
+        }*/
     }
 
     private void Update()
