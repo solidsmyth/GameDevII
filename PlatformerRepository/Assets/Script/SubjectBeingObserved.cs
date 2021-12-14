@@ -6,8 +6,7 @@ public class SubjectBeingObserved : MonoBehaviour
 {
   private List<Observer> _observers = new List<Observer>();
 
-
-  public void AddObserver (Observer observer) {
+    public void AddObserver (Observer observer) {
     _observers.Add(observer);
   }
 
@@ -16,7 +15,7 @@ public class SubjectBeingObserved : MonoBehaviour
     _observers.Remove(observer);
   }
 
-
+    
   public void Notify (Object obj, NotificationType noTy, int pointValue) {
     foreach (Observer observer in _observers) {
       observer.OnNotify(obj, noTy, pointValue);

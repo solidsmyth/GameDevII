@@ -15,7 +15,7 @@ public class goldCoin : Collectables
         if (col.gameObject.tag == "Player")
         {
             Debug.Log("Notify");
-            Notify(gameObject, NotificationType.silvercoin, pointValue);
+            Notify(gameObject, NotificationType.goldcoin, pointValue);
         }
     }
 }

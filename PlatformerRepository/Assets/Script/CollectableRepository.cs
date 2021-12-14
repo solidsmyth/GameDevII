@@ -52,4 +52,11 @@ public class CollectableRepository : MonoBehaviour, Observer
         }
         Destroy(obj);
     }
+    public void ReAssess()
+    {
+        foreach (SubjectBeingObserved subject in FindObjectsOfType<SubjectBeingObserved>())
+        {
+            subject.AddObserver(this);
+        }
+    }
 }
